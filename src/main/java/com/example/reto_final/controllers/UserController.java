@@ -22,7 +22,7 @@ public class UserController {
     }
 
     @GetMapping("/all")
-    public Flux<User> getById(){
+    public Flux<User> getAll(){
         return this.userService.getAllUsers();
     }
 
